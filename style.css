@@ -1,0 +1,100 @@
+.header {
+  padding: 10px 16px;
+}
+body {
+  font-family: Arial;
+  align-content: center;
+}
+strike {
+  opacity: 0.5;
+}
+.boxOfInfo{
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.top {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  background-color: black;
+}
+
+.title {
+  font-family: 'UnifrakturCook';
+  font-size: 22px;
+  text-align: left;
+}
+
+#mid {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#log {
+  text-align: right;
+}
+
+#bigRed {
+  color: white;
+  background-color: tomato;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px 10px;
+}
+
+.digitalOrHome {
+  text-align: center;
+}
+button {
+    opacity: 0.8;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 10px;
+  }
+#BasicPack {
+  padding: 20px 2px 20px 2px;
+  background-color: DodgerBlue;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#allaccess {
+  padding: 20px 2px 20px 2px;
+  color: white;
+  background-color: #3d3d99;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#exclusive {
+  padding: 20px 2px 20px 2px;
+  color: white;
+  background-color: #333333;
+  text-align: center;
+  border-radius: 8px;
+}
+#sub{
+  color: yellow;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+}
+.boxOfInfo{
+    width: 320px;
+    padding: 10px;
+    margin: 0;
+}
