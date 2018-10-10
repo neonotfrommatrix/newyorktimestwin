@@ -12,6 +12,11 @@ strike {
     float: left;
     width: 33.33%;
 }
+#Subs {
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+
+}
 
 /* Clear floats after the columns */
 .row::after {
@@ -19,11 +24,26 @@ strike {
     display: table;
     clear: both;
 }
+.optionInfo{
+  float: left;
+  width: 33.33%
+}
+.About {
+  float: left;
+  width: 22.22%;
+
+}
+.roww::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .top {
   color: white;
-  font-size: 24px;
+  font-size: 15px;
   text-align: center;
   background-color: black;
+  padding: 20px 10px;
 }
 
 .title {
@@ -35,6 +55,7 @@ strike {
 #mid {
   text-align: center;
   font-family: sans-serif;
+  font-size: 15px;
 }
 
 #log {
@@ -46,7 +67,7 @@ strike {
   background-color: tomato;
   text-align: center;
   font-size: 25px;
-  padding: 30px 10px;
+  padding: 30px;
 }
 
 .digitalOrHome {
@@ -91,10 +112,47 @@ ul {
 }
 
 ul li:before {
-  content: '✓';
+  content: '✔';
 }
 .boxOfInfo{
     width: 320px;
     padding: 10px;
     margin: 0;
+}
+#FAQS{
+  color: DodgerBlue;
+}
+#headings {
+  font-family: Arial;
+  font-size: 25px;
+}
+#cr {
+  font-size: 10px;
+}
+#FAQBUTTON{
+  opacity: 0.8;
+  border: none;
+  color: white;
+  font-size: 30px;
+  background-color: DodgerBlue;
+  padding: 10px 50px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#oneyear {
+  font-size: 10px;
+}
+
+.optionInfo {
+ width: 320px;
+ padding: 10px;
+ margin: 0;
+ background-color: LightGray;
+}
+
+.footer{
+  color: white;
+  background-color: #333333;
+  padding: 90px 40px;
 }
