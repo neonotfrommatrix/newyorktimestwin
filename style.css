@@ -1,43 +1,50 @@
 .header {
   padding: 10px 16px;
 }
+
 body {
   font-family: Arial;
   align-content: center;
+
 }
 strike {
   opacity: 0.5;
 }
-.boxOfInfo{
-    float: left;
-    width: 33.33%;
+
+.boxOfInfo {
+  float: left;
+  width: 33.33%;
 }
+
 #Subs {
   font-family: 'Slabo 27px', serif;
   font-size: 30px;
-
 }
+
 
 /* Clear floats after the columns */
 .row::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-.optionInfo{
+
+.optionInfo {
   float: left;
   width: 33.33%
 }
+
 .About {
   float: left;
   width: 22.22%;
-
 }
+
 .roww::after {
   content: "";
   display: table;
   clear: both;
 }
+
 .top {
   color: white;
   font-size: 15px;
@@ -73,14 +80,16 @@ strike {
 .digitalOrHome {
   text-align: center;
 }
+
 button {
-    opacity: 0.8;
-    border: none;
-    color: white;
-    padding: 10px 40px;
-    border-radius: 8px;
-    font-size: 10px;
-  }
+  opacity: 0.8;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-size: 10px;
+}
+
 #BasicPack {
   padding: 20px 2px 20px 2px;
   background-color: DodgerBlue;
@@ -104,9 +113,11 @@ button {
   text-align: center;
   border-radius: 8px;
 }
-#sub{
+
+#sub {
   color: yellow;
 }
+
 ul {
   list-style: none;
 }
@@ -114,22 +125,27 @@ ul {
 ul li:before {
   content: '✔';
 }
-.boxOfInfo{
-    width: 320px;
-    padding: 10px;
-    margin: 0;
+
+.boxOfInfo {
+  width: 320px;
+  padding: 10px;
+  margin: 0;
 }
-#FAQS{
+
+#FAQS {
   color: DodgerBlue;
 }
+
 #headings {
   font-family: Arial;
   font-size: 25px;
 }
+
 #cr {
   font-size: 10px;
 }
-#FAQBUTTON{
+
+#FAQBUTTON {
   opacity: 0.8;
   border: none;
   color: white;
@@ -145,13 +161,13 @@ ul li:before {
 }
 
 .optionInfo {
- width: 320px;
- padding: 10px;
- margin: 0;
- background-color: LightGray;
+  width: 320px;
+  padding: 10px;
+  margin: 0;
+  background-color: #f2f2f2;
 }
 
-.footer{
+.footer {
   color: white;
   background-color: #333333;
   padding: 90px 40px;
